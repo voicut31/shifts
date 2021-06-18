@@ -1,0 +1,24 @@
+{
+    "name": "voicut31/api_generator",
+    "description": "API Generator",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.6",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "ApiGenerator": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Voicu Tibea",
+            "email": "voicut31@yahoo.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "8.*"
+    }
+}
